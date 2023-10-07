@@ -1,0 +1,17 @@
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Infra.deps.json
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Infra.dll
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Infra.pdb
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Domain.dll
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Domain.pdb
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.csproj.AssemblyReference.cache
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.AssemblyInfoInputs.cache
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.AssemblyInfo.cs
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.csproj.CoreCompileInputs.cache
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.csproj.CopyComplete
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.dll
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\refint\SRSAppV2.Infra.dll
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.pdb
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\ref\SRSAppV2.Infra.dll
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Infra.runtimeconfig.json
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.genruntimeconfig.cache

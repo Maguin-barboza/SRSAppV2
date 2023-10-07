@@ -1,0 +1,229 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.API\\SRSAppV2.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.API\\SRSAppV2.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.API\\SRSAppV2.API.csproj",
+        "projectName": "SRSAppV2.API",
+        "projectPath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.API\\SRSAppV2.API.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Domain\\SRSAppV2.Domain.csproj": {
+                "projectPath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Domain\\SRSAppV2.Domain.csproj"
+              },
+              "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Infra\\SRSAppV2.Infra.csproj": {
+                "projectPath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Infra\\SRSAppV2.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Domain\\SRSAppV2.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Domain\\SRSAppV2.Domain.csproj",
+        "projectName": "SRSAppV2.Domain",
+        "projectPath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Domain\\SRSAppV2.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "prmToolkit.NotificationPattern": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Infra\\SRSAppV2.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Infra\\SRSAppV2.Infra.csproj",
+        "projectName": "SRSAppV2.Infra",
+        "projectPath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Infra\\SRSAppV2.Infra.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Domain\\SRSAppV2.Domain.csproj": {
+                "projectPath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Domain\\SRSAppV2.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
