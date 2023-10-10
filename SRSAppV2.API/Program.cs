@@ -36,7 +36,7 @@ void ConfigureContext(IServiceCollection services)
 {
     string connectionString;
 
-    connectionString = "Server=DESKTOP-UNE8NQO;Database=SRSApp;Integrated Security=True;";
+    connectionString = "Server=DESKTOP-UNE8NQO;Database=SRSApp;Integrated Security=True;TrustServerCertificate=True;";
 
     services.AddDbContext<SRSAppContext>(context =>
         context.UseSqlServer(connectionString));

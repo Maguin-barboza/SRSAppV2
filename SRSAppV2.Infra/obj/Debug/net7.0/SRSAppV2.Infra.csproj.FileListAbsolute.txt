@@ -1,4 +1,5 @@
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Infra.deps.json
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Infra.runtimeconfig.json
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Infra.dll
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Infra.pdb
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Domain.dll
@@ -12,6 +13,5 @@ D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\n
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.dll
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\refint\SRSAppV2.Infra.dll
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.pdb
-D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\ref\SRSAppV2.Infra.dll
-D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\bin\Debug\net7.0\SRSAppV2.Infra.runtimeconfig.json
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\SRSAppV2.Infra.genruntimeconfig.cache
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.Infra\obj\Debug\net7.0\ref\SRSAppV2.Infra.dll
