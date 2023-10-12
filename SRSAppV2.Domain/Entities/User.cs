@@ -20,6 +20,8 @@ public class User: Notifiable
             .IfNullOrInvalidLength(x => x.Password, 6, 32);
 
         this.Password = password.ConvertToMD5();
+        this.CreatedAt = DateTime.Now;
+        this.Activated = false;
     }
 
     public Guid Id { get; private set; }
@@ -27,4 +29,6 @@ public class User: Notifiable
     public string LastName { get; private set; }
     public string Email { get; private set; }
     public string Password { get; private set; }
+    public DateTime CreatedAt { get; private set; }
+    public bool Activated { get; private set; }
 }

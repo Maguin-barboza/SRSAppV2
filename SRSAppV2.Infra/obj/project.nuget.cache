@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "LbqDij1TEcbxllEN52o+lNq0TzHPvk/2wz0CAotpNlixAw5nrfiOGa/fTkbivqcUqDYDIdETqEo2JE2ZwNGTZQ==",
+  "dgSpecHash": "T717dfSA4d+8scOdT90Pfik5swr5kO0BFDLPiScRuj9mpLIL26q/JZk0u19Mhw0uQ6VxzWuAVyp1vqWq0CL76g==",
   "success": true,
   "projectFilePath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Infra\\SRSAppV2.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrador\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.11\\microsoft.entityframeworkcore.abstractions.7.0.11.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.11\\microsoft.entityframeworkcore.analyzers.7.0.11.nupkg.sha512",

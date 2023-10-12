@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/jgOslOKtsJrgi2fWTSzWep03kokG1UHc/HaauQle8FnWVEPIQKZmfEDCnU4nFyfvUO/a6zSsONAiGVoRpTQOw==",
+  "dgSpecHash": "0WNq04MyZokV/cozWC8XN5rGVhfNGB5apGMukowf7Jf6/fiLZUjTYaZBU7OggxTmhb7e91twBJWobAXJLJGtKA==",
   "success": true,
   "projectFilePath": "D:\\Users\\Administrador\\Documents\\ProjetosDev\\SRSAppV2\\SRSAppV2.Domain\\SRSAppV2.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Administrador\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Administrador\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",

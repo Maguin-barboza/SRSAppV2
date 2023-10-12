@@ -1,4 +1,5 @@
-﻿using SRSAppV2.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using SRSAppV2.Domain.Entities;
 using SRSAppV2.Domain.Interfaces.Repositories;
 using SRSAppV2.Infra.Context;
 
@@ -17,5 +18,15 @@ public class UserRepository : IUserRepository
     {
         await _context.AddAsync(user);
         await _context.SaveChangesAsync();
+    }
+
+    public bool Exists(Func<User, bool> where)
+    {
+        return _context.Set<User>().Any(where);
+    }
+
+    public async Task<User> GetById(Guid Id)
+    {
+        return await _context.Users.FirstOrDefaultAsync(x => x.Id == Id);
     }
 }

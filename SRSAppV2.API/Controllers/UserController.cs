@@ -1,9 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SRSAppV2.API.DTOs;
+using SRSAppV2.Domain.Commands.UserCmd.AddUser;
 using SRSAppV2.Domain.Entities;
 using SRSAppV2.Domain.Interfaces.Repositories;
 using SRSAppV2.Infra.Repositories;
+using SRSAppV2.Infra.UnityOfWork;
 
 namespace SRSAppV2.API.Controllers;
 
@@ -11,13 +14,13 @@ namespace SRSAppV2.API.Controllers;
 [ApiController]
 public class UserController : ControllerBase
 {
+    private readonly IMediator _mediator;
+    private readonly IUnitOfWork _unitOfWork;
 
-    //TODO: Verificar erro Error: SSL peer certificate or SSH remote key was not OK
-    private readonly IUserRepository _repository;
-
-    public UserController(IUserRepository repository)
+    public UserController(IMediator mediator, IUnitOfWork unityOfWork)
     {
-        _repository = repository;
+        _mediator = mediator;
+        _unitOfWork = unityOfWork;
     }
 
     [HttpGet]
@@ -27,14 +30,20 @@ public class UserController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> Post(UserDto userDTO)
+    public async Task<IActionResult> Post(AddUserRequest request)
     {
         try
         {
-            User user = new User(new Guid(), userDTO.FirstName, userDTO.LastName, userDTO.Email, userDTO.Password);
-            await _repository.Add(user);
+            var response = await _mediator.Send(request, CancellationToken.None);
 
-            return Ok(user);
+            if(response.Notifications.Any())
+            {
+                return BadRequest(response.Notifications);
+            }
+
+            _unitOfWork.SaveChanges();
+            return Ok(response.Data);
+
         }
         catch (Exception ex)
         {

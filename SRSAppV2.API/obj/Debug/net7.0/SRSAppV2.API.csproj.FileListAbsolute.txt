@@ -80,3 +80,5 @@ D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.API\obj\Debug\net
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.API\obj\Debug\net7.0\SRSAppV2.API.pdb
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.API\obj\Debug\net7.0\SRSAppV2.API.genruntimeconfig.cache
 D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.API\obj\Debug\net7.0\ref\SRSAppV2.API.dll
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.API\bin\Debug\net7.0\MediatR.dll
+D:\Users\Administrador\Documents\ProjetosDev\SRSAppV2\SRSAppV2.API\bin\Debug\net7.0\MediatR.Contracts.dll
