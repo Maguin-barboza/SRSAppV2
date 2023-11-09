@@ -1,8 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using SRSAppV2.Domain.Commands.UserCmd.AddUser;
 using SRSAppV2.Domain.Interfaces.Repositories;
+using SRSAppV2.Domain.Interfaces.Services;
 using SRSAppV2.Infra.Context;
 using SRSAppV2.Infra.Repositories;
+using SRSAppV2.Infra.Services;
 using SRSAppV2.Infra.UnityOfWork;
 using System.Reflection;
 
@@ -17,6 +19,7 @@ builder.Services.AddSwaggerGen();
 
 ConfigureContext(builder.Services);
 builder.Services.AddTransient<IUserRepository, UserRepository>();
+builder.Services.AddTransient<IJWTService, JWTService>();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(AddUserRequest).GetTypeInfo().Assembly));
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 

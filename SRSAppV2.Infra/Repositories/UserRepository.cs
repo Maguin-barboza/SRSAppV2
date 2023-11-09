@@ -2,6 +2,7 @@
 using SRSAppV2.Domain.Entities;
 using SRSAppV2.Domain.Interfaces.Repositories;
 using SRSAppV2.Infra.Context;
+using System.Linq.Expressions;
 
 namespace SRSAppV2.Infra.Repositories;
 
@@ -23,6 +24,11 @@ public class UserRepository : IUserRepository
     public bool Exists(Func<User, bool> where)
     {
         return _context.Set<User>().Any(where);
+    }
+
+    public async Task<User> GetByEmail(string Email)
+    {
+        return await _context.Users.FirstOrDefaultAsync(x => x.Email == Email);
     }
 
     public async Task<User> GetById(Guid Id)

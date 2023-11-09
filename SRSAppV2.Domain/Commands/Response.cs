@@ -2,6 +2,8 @@
 
 namespace SRSAppV2.Domain.Commands;
 
+
+//TODO: Deixar este response genérico e criar responses específicos para cada command. Ex: AddUserResponse
 public class Response
 {
     public Response(INotifiable notifiable)

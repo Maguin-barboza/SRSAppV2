@@ -6,5 +6,6 @@ public interface IUserRepository
 {
     bool Exists(Func<User, bool> where);
     Task<User> GetById(Guid Id);
+    Task<User> GetByEmail(string Email);
     Task Add(User user);
 }
